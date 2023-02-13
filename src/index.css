@@ -6,7 +6,9 @@
 body {
   background-color: lavender;
 }
-
+.text {
+  text-align: center;
+}
 .container {
   background-color: aliceblue;
   border-radius: 19px;
@@ -38,14 +40,29 @@ li:hover {
   color: black;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.row {
-  margin: 50px auto;
+.Counter {
+  background-color: blueviolet;
+  margin: 30px auto;
+  display: flex;
+
+  padding: 15px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+}
+.Counter button {
+  margin-left: 12px;
+}
+span {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.info-box {
   background-color: aquamarine;
   border-radius: 20px;
+  width: 70%;
+  height: 20vh;
   text-align: center;
-}
-.col-md-6 {
-  padding: 5px;
-  border: 1px solid red;
-  border-radius: 12px;
+  margin: 12px auto;
 }

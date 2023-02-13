@@ -1,3 +1,5 @@
+import Counter from "./Components/home/counter";
+import Service from "./Components/service/service";
 import "./index.css";
 function App() {
   return (
@@ -27,29 +29,11 @@ function App() {
           </li>
         </ul>
       </div>
-
-      <div className="container-fluid">
-        <div className="row">
-          <div className="col-md-6">
-            <h1>Hello World</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam,
-              corporis quam sit doloribus et reiciendis sint tenetur facilis
-              cumque ex provident placeat? Quam, accusantium aut dignissimos vel
-              debitis delectus porro.
-            </p>
-          </div>
-          <div className="col-md-6">
-            <h1>Hello World</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam,
-              corporis quam sit doloribus et reiciendis sint tenetur facilis
-              cumque ex provident placeat? Quam, accusantium aut dignissimos vel
-              debitis delectus porro.
-            </p>
-          </div>
-        </div>
-      </div>
+      <Counter btn="Button" />
+      <Counter btn="Submit" />
+      <hr />
+      <Service course="ReactJs" name="Mustafa" />
+      <Service course="Python" name="John" />
     </>
   );
 }
