@@ -6,12 +6,21 @@ class Counter extends Component {
     lastName: "Naiby",
     Age: 22,
   };
+
+  ClickHandler = () => {
+    this.setState({ Amount: this.state.Amount + 1 });
+  };
   render() {
     return (
       <>
         <div className="Counter">
-          <span className="badge badge-primary ">{this.formatCount()}</span>
-          <button className="btn btn-primary">{this.props.btn}</button>
+          <span className="btn btn-sm btn-warning ">{this.formatCount()}</span>
+          <button
+            onClick={this.ClickHandler}
+            className="btn btn-lg btn-primary"
+          >
+            {this.props.btn}
+          </button>
         </div>
       </>
     );

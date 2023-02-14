@@ -29,11 +29,11 @@ function App() {
           </li>
         </ul>
       </div>
+
       <Counter btn="Button" />
-      <Counter btn="Submit" />
+
       <hr />
-      <Service course="ReactJs" name="Mustafa" />
-      <Service course="Python" name="John" />
+      <Service />
     </>
   );
 }

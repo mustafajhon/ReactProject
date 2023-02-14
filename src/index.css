@@ -62,7 +62,39 @@ span {
   background-color: aquamarine;
   border-radius: 20px;
   width: 70%;
-  height: 20vh;
+  height: 40vh;
   text-align: center;
   margin: 12px auto;
+}
+.box {
+  margin: 10px auto;
+}
+
+.boxer {
+  background-color: cadetblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 10vh;
+  margin: 3px auto;
+  border-radius: 20px;
+}
+.boxer button {
+  margin-right: 10px;
+}
+button {
+  margin: 12px;
+}
+
+.form {
+  width: 400px;
+  height: 200px;
+  border-radius: 40px;
+
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 17px auto;
 }
